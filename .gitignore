@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Data and large files (raw datasets must stay out of Git)
+data/raw/
+data/processed/
+data/external/
+data/home_havells/
+models/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.joblib
+*.pkl
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# IDE, agent and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.agents/
+~$*
+*.tmp
